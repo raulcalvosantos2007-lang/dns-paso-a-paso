@@ -1,0 +1,14 @@
+;
+; 56.168.192
+;
+$TTL 86400
+@ IN SOA debian.raul.test. admin.raul.test. (
+    2026101501 ; Serial
+    3600       ; Refresh
+    1800       ; Retry
+    604800     ; Expire
+    86400      ; Negative Cache TTL
+)
+
+@   IN NS  debian.raul.test.
+10  IN PTR debian.raul.test.
