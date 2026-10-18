@@ -3,7 +3,7 @@
 ;
 $TTL 86400
 @ IN SOA debian.raul.test. admin.raul.test. (
-    2026101501 ; Serial
+    2026101502 ; Serial
     3600       ; Refresh
     1800       ; Retry
     604800     ; Expire
@@ -12,3 +12,5 @@ $TTL 86400
 
 @       IN NS debian.raul.test.
 debian  IN A  192.168.56.10
+web IN CNAME debian.raul.test.
+@   IN TXT   "raulcalvosantos2007-lang"
