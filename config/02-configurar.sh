@@ -13,10 +13,10 @@ install -o root -g bind -m 644 \
 install -d -o root -g bind -m 775 /var/lib/bind
 
 install -o root -g bind -m 644 \
-    /vagrant/files/tunombre.test.dns /var/lib/bind/tunombre.test.dns
+    /vagrant/files/raul.test.dns /var/lib/bind/raul.test.dns
 
 install -o root -g bind -m 644 \
-    /vagrant/files/tunombre.test.rev /var/lib/bind/tunombre.test.rev
+    /vagrant/files/raul.test.rev /var/lib/bind/raul.test.rev
 
 named-checkconf -z
 
